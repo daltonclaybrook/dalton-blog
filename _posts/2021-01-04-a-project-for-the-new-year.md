@@ -3,6 +3,7 @@ layout: single
 title:  "A project for the new year"
 date:   2021-01-04 09:15:53 -0500
 categories: gameboy
+tags: gameboy compilers projects
 ---
 The [Game Boy Color](https://en.wikipedia.org/wiki/Game_Boy_Color) was released in October of 1998, nearly ten years after the release of the original Game Boy. I don't remember exactly when I got mine, but it must have been around that time because it was my saving grace on the long road trips my family would take to Utah. I would play Pokémon Blue for hours upon hours, occasionally struggling to see the screen (it had no built-in light). I remember getting worried as the power light began to dim, signaling the end-of-life for the two AA batteries it depended on, and saving my game after every minuscule achievement out of paranoia. I remember the thrill of catching an elusive Pokémon or beating a gym leader and the sting of a blackout.
 
