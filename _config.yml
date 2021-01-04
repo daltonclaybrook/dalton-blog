@@ -35,7 +35,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 author:
   name: "Dalton Claybrook"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Software Developer with a passion for retro gaming"
+  bio: "Software developer with a passion for retro gaming"
   location: "New York, NY"
   links:
     - label: "Twitter"
@@ -44,11 +44,17 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/daltonclaybrook"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "http://stackoverflow.com/users/907186/daltonclaybrook"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/dalton-claybrook-b7409629/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/daltonclaybrook"
     - label: "Email"
-      icon: "fas fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:daltonclaybrook@gmail.com"
 
 defaults:
