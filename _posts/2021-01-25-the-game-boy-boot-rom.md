@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "The Game Boy Boot ROM"
-date:   2021-01-25 00:00:00 -0500
+date:   2021-01-25 22:01:00 -0500
 categories: gameboy
 tags: gameboy emulator projects
 ---
