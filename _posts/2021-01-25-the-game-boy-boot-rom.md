@@ -23,7 +23,7 @@ First off, the ROM sets the _stack pointer_ to the correct value (`0xFFFE`). In 
 
 Next, the ROM loops through the VRAM region of memory and loads "0" into each memory location. Due to *[hardware knowledge missing]*, these bytes may be non-zero after the Game Boy powers on, so the boot ROM must clear all of these bytes. Otherwise, the screen might display random undesired tiles and other visual artifacts.
 
-After that, the ROM configures the onboard sound controller. It turns the controller on, selects the appropriate wave pattern for the tones, applies the correct volume envelope, and finally sets the master volume for left and right audio channels.
+After that, the ROM configures the onboard sound controller. It turns the controller on, selects the appropriate wave pattern for the tones, applies the correct volume envelope, and finally, sets the master volume for the left and right audio channels. One thing that isn't done yet is setting the frequency/pitch. The two tones to be played share the same channel (or "voice"), so the frequency of the second tone must be set after the first tone is finished playing.
 
 >Fun fact: Are you surprised to hear that the Game Boy has stereo audio? Although the device only has one speaker, the Game Boy supports stereo audio over the 3.5 mm headphone jack.
 
