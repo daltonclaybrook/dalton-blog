@@ -48,3 +48,9 @@ I mentioned earlier that the boot ROM loads the Nintendo logo from the cartridge
 After this comparison is finished, only two tasks remain. The ROM computes an 8-bit [checksum](https://en.wikipedia.org/wiki/Checksum) of the data stored in the cartridge header and compares the checksum to the byte stored in `0x14D` on the cartridge. If these values don't match, the system locks up, just like with the logo check. This is most likely done to verify the integrity of the data stored in the cartridge, rather than for legal reasons. Finally, the boot ROM disables itself by writing "1" to a special register at location `0xFF50`. Previously mapped to the boot ROM, the memory region `0x000`...`0x100` is remapped to the first 256 bytes in the cartridge ROM.
 
 By the time the cartridge takes over execution, the boot ROM is completely inaccessible. Historically, this has made it quite tricky for Game Boy researchers to know exactly what the boot ROM was doing. It wasn't until 2003 that a researcher called neviksti was able to decipher the contents by physically de-capping the ROM chip inside the Game Boy. Using a microscope, he painstakingly read and recorded the contents of the boot ROM bit-by-bit. We have him and many others to thank for the vast assortment of information now publicly available about this iconic device.
+
+## Resources
+
+- [Gameboy Bootstrap ROM](https://gbdev.gg8.se/wiki/articles/Gameboy_Bootstrap_ROM)
+- [Pan Docs](https://gbdev.io/pandocs/)
+- [The Ultimate Game Boy Talk](https://www.youtube.com/watch?v=HyzD8pNlpwI)
